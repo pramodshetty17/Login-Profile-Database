@@ -1,0 +1,135 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+.login-bg{
+    background: linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.signup-bg{
+    background: linear-gradient(135deg,#ff9a9e,#fad0c4);
+}
+
+.welcome-bg{
+    background: linear-gradient(135deg,#43cea2,#185a9d);
+    color:white;
+}
+
+
+.container{
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.15);
+    padding:40px;
+    border-radius:15px;
+    box-shadow:0 8px 32px rgba(0,0,0,0.2);
+    width:320px;
+    text-align:center;
+    color:white;
+}
+
+
+.input-group{
+    position:relative;
+    margin:20px 0;
+}
+
+.input-group input{
+    width:100%;
+    padding:10px;
+    border:none;
+    outline:none;
+    border-radius:8px;
+    background:rgba(255,255,255,0.2);
+    color:white;
+}
+
+.input-group label{
+    position:absolute;
+    left:10px;
+    top:10px;
+    font-size:14px;
+    color:#000;
+    transition:0.3s;
+}
+
+.input-group input:focus + label,
+.input-group input:valid + label{
+    top:-15px;
+    font-size:12px;
+    color:#000;
+}
+
+
+button{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#00c6ff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#0072ff;
+}
+
+
+a{
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+
+.message{
+    margin-top:10px;
+    font-size:20px;
+    font-weight:bold;
+    
+}
+
+.success{
+    color:#000;
+}
+
+.error{
+    color:#ff4d4d;
+}
+
+
+.box{
+    text-align:center;
+    background:rgba(255,255,255,0.1);
+    padding:40px;
+    border-radius:15px;
+    backdrop-filter: blur(10px);
+}
+
+.back-link{
+    display:inline-block;
+    margin-top:20px;
+    padding:10px 15px;
+   
+    
+    color:#fff;
+    text-decoration:none;
+    transition:0.3s;
+    font-size:20px;
+}
+
